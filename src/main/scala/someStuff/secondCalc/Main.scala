@@ -1,10 +1,11 @@
-package someStuff.calc
+package someStuff.secondCalc
 
 import scala.io.StdIn.readLine
 
 object Main {
+
   def main(args: Array[String]): Unit = {
-    val expression = readLine().split(";").map(_.trim)
+/*    val expression = readLine().split(";").map(_.trim)
 
     val firstValue = expression(0).toInt
     val secondValue = expression(2).toInt
@@ -18,5 +19,5 @@ object Main {
       case "+" => println(firstValue + secondValue)
       case _ => println("nope")
     }
-  }
+*/  }
 }
